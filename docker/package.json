@@ -4,7 +4,7 @@
   "repository": "https://github.com/yasu-s/github-packages-test.git",
   "license": "MIT",
   "scripts": {
-    "start": "node node_modules/@yasu-s/github-packages-test/index.js"
+    "start": "node node_modules/@yasu-s/github-packages-test/src/index.js"
   },
   "dependencies": {
     "@yasu-s/github-packages-test": "^1.0.0"
