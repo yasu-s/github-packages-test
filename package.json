@@ -1,0 +1,12 @@
+{
+  "name": "github-packages-test",
+  "version": "1.0.0",
+  "repository": "https://github.com/yasu-s/github-packages-test.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
