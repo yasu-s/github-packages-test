@@ -2,7 +2,7 @@ version: '3'
 
 services:
   api-server:
-    container_name: api-server
+    container_name: pkg-test-server
     build:
       context: .
       dockerfile: Dockerfile

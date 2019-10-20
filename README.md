@@ -5,8 +5,17 @@ Github パッケージリポジトリを使用したサンプルです。
 
 # コマンド
 
+## パッケージ公開コマンド
+
 ```bash
 npm publish
+```
+
+## Docker起動
+
+```bash
+cd docker
+docker-compose up --build
 ```
 
 # 参考URL
