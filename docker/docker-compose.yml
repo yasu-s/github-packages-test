@@ -2,6 +2,7 @@ version: '3'
 
 services:
   api-server:
+    image: docker.pkg.github.com/yasu-s/github-packages-test/test-server:1.0.0
     container_name: pkg-test-server
     build:
       context: .
