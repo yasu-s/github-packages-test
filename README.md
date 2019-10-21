@@ -22,6 +22,7 @@ docker-compose up --build
 
 ```bash
 cd docker
+docker login docker.pkg.github.com -u USERNAME -p TOKEN
 docker build -t docker.pkg.github.com/yasu-s/github-packages-test/test-server:1.0.0 .
 docker push docker.pkg.github.com/yasu-s/github-packages-test/test-server:1.0.0
 ```
