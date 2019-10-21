@@ -1,12 +1,13 @@
 {
   "name": "docker-sample",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/yasu-s/github-packages-test.git",
   "license": "MIT",
+  "description": "github packege docker sample",
   "scripts": {
-    "start": "node node_modules/@yasu-s/github-packages-test/src/index.js"
+    "start": "github-packages-test"
   },
   "dependencies": {
-    "@yasu-s/github-packages-test": "^1.0.0"
+    "@yasu-s/github-packages-test": "^1.1.1"
   }
 }
